@@ -1,0 +1,85 @@
+{
+	"modules-left": [
+		"custom/left_div#1",
+		"hyprland/workspaces",
+		"custom/right_div#1"
+	],
+	"modules-center": [
+		"custom/left_div#2",
+		"custom/left_inv#1",
+		"custom/left_div#5",
+		"custom/distro",
+		"custom/right_div#2",
+		"custom/right_inv#1",
+		"idle_inhibitor",
+		"clock#time",
+		"custom/right_div#3",
+		"custom/right_div#4",
+		"network",
+		"bluetooth",
+		"custom/right_div#5"
+	],
+	"modules-right": [
+		"custom/left_div#6",
+		"custom/pipewire-sink",
+		"custom/left_div#8",
+		"battery",
+		"custom/left_inv#2",
+		"custom/power_menu"
+	],
+
+	/*-------------
+		options
+	-------------*/
+
+	"layer": "top",
+	"height": 0,
+	"width": 0,
+	"margin": 0,
+	// "margin-top":
+	// "margin-left":
+	// "margin-bottom":
+	// "margin-right":
+	"spacing": 0,
+	// "name":
+	"mode": "dock",
+	"reload_style_on_change": true,
+
+	/* Battery */
+	"battery": {
+		"states": {
+			"warning": 20,
+			"critical": 10
+		},
+		"format": "{icon} {capacity}%",
+		"format-time": "{H} hr {M} min",
+		"format-icons": [
+			"", "", "", "", ""
+		],
+		"format-charging": "󰉁 {capacity}%",
+		"min-length": 7,
+		"max-length": 7,
+		"tooltip-format": "Discharging: {time}",
+		"tooltip-format-charging": "Charging: {time}",
+		"events": {
+			"on-discharging-warning": "notify-send 'Low Battery' '{capacity}% battery remaining'",
+			"on-discharging-critical": "notify-send 'Low Battery' '{capacity}% battery remaining' -u critical",
+			"on-charging-100": "notify-send 'Battery full' 'Battery is at {capacity}%'"
+		}
+	},
+
+	/* Power Menu */
+	"custom/power_menu": {
+		"format": "󰤄  ",
+		"on-click": "~/.config/rofi/powermenu.sh 2>/dev/null",
+		"tooltip": false
+	},
+
+	/* Pipwire */
+	"custom/pipewire-sink": {
+		"exec": "~/.config/waybar/scripts/pipewire-volume.sh",
+		"interval": 2,
+		"return-type": "json"
+	}
+
+}

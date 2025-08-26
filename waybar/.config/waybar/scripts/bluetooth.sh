@@ -51,6 +51,8 @@ options=(
 	--pointer=
 	--reverse
 )
+# shellcheck disable=SC2154
+options+=("${colors[@]}")
 
 address=$(fzf "${options[@]}" <<<"$list" | awk '{print $1}')
 

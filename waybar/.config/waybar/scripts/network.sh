@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+#
+# Connect to a Wi-Fi network using nmcli and fzf
 
 status=$(nmcli radio wifi)
 
@@ -39,6 +41,8 @@ options=(
 	--pointer=
 	--reverse
 )
+# shellcheck disable=SC2154
+options+=("${colors[@]}")
 
 bssid=$(fzf "${options[@]}" <<<"$list" | awk '{print $1}')
 
