@@ -13,6 +13,7 @@
 		"custom/right_inv#1",
 		"idle_inhibitor",
 		"clock#time",
+		"clock#date",
 		"custom/right_div#3",
 		"custom/right_div#4",
 		"network",
@@ -51,7 +52,7 @@
 			"warning": 20,
 			"critical": 10
 		},
-		"format": "{icon} {capacity}%",
+		"format": "{icon}   {capacity}%",
 		"format-time": "{H} hr {M} min",
 		"format-icons": [
 			"", "", "", "", ""
@@ -80,6 +81,92 @@
 		"exec": "~/.config/waybar/scripts/pipewire-volume.sh",
 		"interval": 2,
 		"return-type": "json"
+	},
+
+	/* Bluetooth */
+	"bluetooth": {
+		"format": "󰂯",
+		"format-disabled": "󰂲",
+		"format-off": "󰂲",
+		"format-on": "󰂰",
+		"format-connected": "󰂱",
+		"min-length": 2,
+		"max-length": 2,
+		"on-click": "kitty ~/.config/waybar/scripts/bluetooth.sh",
+		"on-click-right": "bluetoothctl power off && notify-send 'Bluetooth Off' -r 1925",
+		"tooltip-format": "Device Addr: {device_address}",
+		"tooltip-format-disabled": "Bluetooth Disabled",
+		"tooltip-format-off": "Bluetooth Off",
+		"tooltip-format-on": "Bluetooth Disconnected",
+		"tooltip-format-connected": "Device: {device_alias}",
+		"tooltip-format-enumerate-connected": "Device: {device_alias}",
+		"tooltip-format-connected-battery": "Device: {device_alias}\nBattery: {device_battery_percentage}%",
+		"tooltip-format-enumerate-connected-battery": "Device: {device_alias}\nBattery: {device_battery_percentage}%"
+	},
+
+	/* Network */
+	"network": {
+		"interval": 10,
+		"format": "󰤨",
+		"format-ethernet": "󰈀",
+		"format-wifi": "{icon}",
+		"format-disconnected": "󰤯",
+		"format-disabled": "󰤮",
+		"format-icons": [
+			"󰤟", "󰤢", "󰤥", "󰤨"
+		],
+		"min-length": 2,
+		"max-length": 2,
+		"on-click": "kitty ~/.config/waybar/scripts/network.sh",
+		"on-click-right": "nmcli radio wifi off && notify-send 'Wi-Fi Disabled' -r 1125",
+		"tooltip-format": "Gateway: {gwaddr}",
+		"tooltip-format-ethernet": "Interface: {ifname}",
+		"tooltip-format-wifi": "Network: {essid}\nIP Addr: {ipaddr}/{cidr}\nStrength: {signalStrength}%\nFrequency: {frequency} GHz",
+		"tooltip-format-disconnected": "Wi-Fi Disconnected",
+		"tooltip-disabled": "Wi-Fi Disabled"
+	},
+
+	/* Clock */
+	"clock#time": {
+		"format": "{:%H:%M}",
+		"min-length": 5,
+		"max-length": 5,
+		"tooltip-format": "Standard Time: {:%I:%M %p}"
+	},
+	"clock#date": {
+		"format": "󰸗 {:%m-%d}",
+		"min-length": 8,
+		"max-length": 8,
+		"tooltip-format": "{calendar}",
+		"calendar": {
+			"mode": "month",
+			"mode-mon-col": 6,
+			"format": {
+				"months": "<b>{}</b>",
+				"today": "<b>{}</b>"
+			}
+		}
+	},
+
+	/* Idle Inhibitor */
+	"idle_inhibitor": {
+		"format": "{icon}",
+		"format-icons": {
+			"activated": "󰈈",
+			"deactivated": "󰈉"
+		},
+		"min-length": 3,
+		"max-length": 3,
+		"tooltip-format-activated": "Presentation Mode ({status})",
+		"tooltip-format-deactivated": "Idle Mode ({status})",
+		"start-activated": false
+	},
+
+	/* Custom Distro */
+	"custom/distro": {
+		"icon": "\uf315",
+		"format": "{icon}",
+		"tooltip": false
 	}
 
 }
