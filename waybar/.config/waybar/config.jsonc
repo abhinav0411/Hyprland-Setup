@@ -1,172 +1,100 @@
 {
-	"modules-left": [
-		"custom/left_div#1",
-		"hyprland/workspaces",
-		"custom/right_div#1"
-	],
-	"modules-center": [
-		"custom/left_div#2",
-		"custom/left_inv#1",
-		"custom/left_div#5",
-		"custom/distro",
-		"custom/right_div#2",
-		"custom/right_inv#1",
-		"idle_inhibitor",
-		"clock#time",
-		"clock#date",
-		"custom/right_div#3",
-		"custom/right_div#4",
-		"network",
-		"bluetooth",
-		"custom/right_div#5"
-	],
-	"modules-right": [
-		"custom/left_div#6",
-		"custom/pipewire-sink",
-		"custom/left_div#8",
-		"battery",
-		"custom/left_inv#2",
-		"custom/power_menu"
-	],
+        "layer": "top",
+        "position": "top",
+        "reload_style_on_change": true,
+        "modules-left": ["hyprland/workspaces"],
+        "modules-center": ["clock"],
+        "modules-right": ["custom/mpris", "network", "battery", "bluetooth", "custom/volume", "custom/logout"],
+        "hyprland/workspaces": {
+                "format": "{icon}",
+                "on-click": "activate",
+                "format-icons": {
+                    "1": "",
+                    "2": "",
+                    "3": "",
+                    "4": "",
+                    "5": "",
+                    "6": "",
+                    "7": "",
+                    "8": "",
+                    "9": "",
+                    "active": "",
+                    "urgent": "",
+                    "persistent": "",
+                    "focused": "",
+                    "default": ""
+                        },
+                "sort-by-number": true
 
-	/*-------------
-		options
-	-------------*/
-
-	"layer": "top",
-	"height": 0,
-	"width": 0,
-	"margin": 0,
-	// "margin-top":
-	// "margin-left":
-	// "margin-bottom":
-	// "margin-right":
-	"spacing": 0,
-	// "name":
-	"mode": "dock",
-	"reload_style_on_change": true,
-
-	/* Battery */
-	"battery": {
-		"states": {
-			"warning": 20,
-			"critical": 10
 		},
-		"format": "{icon}   {capacity}%",
-		"format-time": "{H} hr {M} min",
-		"format-icons": [
-			"", "", "", "", ""
-		],
-		"format-charging": "󰉁 {capacity}%",
-		"min-length": 7,
-		"max-length": 7,
-		"tooltip-format": "Discharging: {time}",
-		"tooltip-format-charging": "Charging: {time}",
-		"events": {
-			"on-discharging-warning": "notify-send 'Low Battery' '{capacity}% battery remaining'",
-			"on-discharging-critical": "notify-send 'Low Battery' '{capacity}% battery remaining' -u critical",
-			"on-charging-100": "notify-send 'Battery full' 'Battery is at {capacity}%'"
-		}
-	},
-
-	/* Power Menu */
-	"custom/power_menu": {
-		"format": "󰤄  ",
-		"on-click": "~/.config/rofi/powermenu.sh 2>/dev/null",
-		"tooltip": false
-	},
-
-	/* Pipwire */
-	"custom/pipewire-sink": {
-		"exec": "~/.config/waybar/scripts/pipewire-volume.sh",
-		"interval": 2,
-		"return-type": "json"
-	},
-
-	/* Bluetooth */
-	"bluetooth": {
-		"format": "󰂯",
-		"format-disabled": "󰂲",
-		"format-off": "󰂲",
-		"format-on": "󰂰",
-		"format-connected": "󰂱",
-		"min-length": 2,
-		"max-length": 2,
-		"on-click": "kitty ~/.config/waybar/scripts/bluetooth.sh",
-		"on-click-right": "bluetoothctl power off && notify-send 'Bluetooth Off' -r 1925",
-		"tooltip-format": "Device Addr: {device_address}",
-		"tooltip-format-disabled": "Bluetooth Disabled",
-		"tooltip-format-off": "Bluetooth Off",
-		"tooltip-format-on": "Bluetooth Disconnected",
-		"tooltip-format-connected": "Device: {device_alias}",
-		"tooltip-format-enumerate-connected": "Device: {device_alias}",
-		"tooltip-format-connected-battery": "Device: {device_alias}\nBattery: {device_battery_percentage}%",
-		"tooltip-format-enumerate-connected-battery": "Device: {device_alias}\nBattery: {device_battery_percentage}%"
-	},
-
-	/* Network */
-	"network": {
-		"interval": 10,
-		"format": "󰤨",
-		"format-ethernet": "󰈀",
-		"format-wifi": "{icon}",
-		"format-disconnected": "󰤯",
-		"format-disabled": "󰤮",
-		"format-icons": [
-			"󰤟", "󰤢", "󰤥", "󰤨"
-		],
-		"min-length": 2,
-		"max-length": 2,
-		"on-click": "kitty ~/.config/waybar/scripts/network.sh",
-		"on-click-right": "nmcli radio wifi off && notify-send 'Wi-Fi Disabled' -r 1125",
-		"tooltip-format": "Gateway: {gwaddr}",
-		"tooltip-format-ethernet": "Interface: {ifname}",
-		"tooltip-format-wifi": "Network: {essid}\nIP Addr: {ipaddr}/{cidr}\nStrength: {signalStrength}%\nFrequency: {frequency} GHz",
-		"tooltip-format-disconnected": "Wi-Fi Disconnected",
-		"tooltip-disabled": "Wi-Fi Disabled"
-	},
-
-	/* Clock */
-	"clock#time": {
-		"format": "{:%H:%M}",
-		"min-length": 5,
-		"max-length": 5,
-		"tooltip-format": "Standard Time: {:%I:%M %p}"
-	},
-	"clock#date": {
-		"format": "󰸗 {:%m-%d}",
-		"min-length": 8,
-		"max-length": 8,
-		"tooltip-format": "{calendar}",
-		"calendar": {
-			"mode": "month",
-			"mode-mon-col": 6,
-			"format": {
-				"months": "<b>{}</b>",
-				"today": "<b>{}</b>"
-			}
-		}
-	},
-
-	/* Idle Inhibitor */
-	"idle_inhibitor": {
-		"format": "{icon}",
-		"format-icons": {
-			"activated": "󰈈",
-			"deactivated": "󰈉"
+        "clock": {
+            "format-alt": "{:L%A %d/%m - %I:%M %p}",
+            "format": "{:L%I:%M %p}",
+            "interval": 1,   
+            "tooltip-format": "<tt>{calendar}</tt>",
+            "smooth-scrolling-threshold": 0.01,
+            "calendar": {
+                "mode"          : "year",
+                "mode-mon-col"  : 3,
+                "weeks-pos"     : "right",
+                "on-scroll"     : 1,
+                "format": {
+                    "months":     "<span color='#ffead3'><b>{}</b></span>",
+                    "days":       "<span color='#ecc6d9'><b>{}</b></span>",
+                    "weeks":      "<span color='#99ffdd'><b>W{}</b></span>",
+                    "weekdays":   "<span color='#ffcc66'><b>{}</b></span>",
+                    "today":      "<span color='#ff6699'><b><u>{}</u></b></span>"
+                }
+            },
+            "actions":  {
+                    "on-click-right": "mode",
+                    "on-scroll-up": "shift_up",
+                    "on-scroll-down": "shift_down"
+            }
 		},
-		"min-length": 3,
-		"max-length": 3,
-		"tooltip-format-activated": "Presentation Mode ({status})",
-		"tooltip-format-deactivated": "Idle Mode ({status})",
-		"start-activated": false
-	},
+        "network": {
+            "format-wifi": " ",
+            "format-ethernet":" ",
+            "format-disconnected": "",
+            "on-click": "kitty waybar/.config/waybar/network.sh"
+        },
+        "bluetooth": {
+            "format": "󰂯 {status}",
+            "format-on": "󰂯",
+            "format-off": "󰂯 off",
+            "format-disabled": "󰂲",
+            "format-no-controller": "󰂲",
+	    	"format-connected-battery": "{device_battery_percentage}% 󰂯",
+            "on-click": "kitty waybar/.config/waybar/bluetooth.sh"
+        },
 
-	/* Custom Distro */
-	"custom/distro": {
-		"icon": "\uf315",
-		"format": "{icon}",
-		"tooltip": false
-	}
+        "custom/logout": {
+            "format": "󰗼",
+            "on-click": "~/.config/rofi/powermenu.sh > /dev/null"
+        },
+        
+        "battery": {
+            "format": "   {capacity}%",
+            "format-charging": "   {capacity}%",
+            "format-plugged": "   {capacity}%",
+            "interval": 30,
+            "tooltip": true,
+            "on-click": "kitty waybar/.config/waybar/power.sh"
+        },
+    
+        "custom/volume": {
+        "format": "   {}",
+        "exec": "wpctl get-volume @DEFAULT_AUDIO_SINK@ | awk '{print int($2*100) \"%\"}'",
+        "interval": 2
+        },
 
-}
+        "custom/mpris": {
+            "exec": "playerctl metadata --format '{{ title }} - {{ artist }}'",
+            "interval": 5,
+            "return-type": "plain",
+            "format": "🎵 {}",
+            "tooltip": false
+        }
+
+
+} 
