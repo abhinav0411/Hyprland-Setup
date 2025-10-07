@@ -1,0 +1,5 @@
+[Keyboard]
+RepeatDelay=550
+
+[Libinput][1133][16469][Logitech Wireless Mouse]
+NaturalScroll=false

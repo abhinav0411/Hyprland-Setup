@@ -1,0 +1,88 @@
+{
+        "layer": "top",
+        "position": "top",
+        "reload_style_on_change": true,
+        "modules-left": ["hyprland/workspaces"],
+        "modules-center": ["clock"],
+        "modules-right": ["network", "battery", "bluetooth", "custom/logout"],
+        "hyprland/workspaces": {
+                "format": "{icon}",
+                "on-click": "activate",
+                "format-icons": {
+                    "1": "",
+                    "2": "",
+                    "3": "",
+                    "4": "",
+                    "5": "",
+                    "6": "",
+                    "7": "",
+                    "8": "",
+                    "9": "",
+                    "active": "",
+                    "urgent": "",
+                    "persistent": "",
+                    "focused": "",
+                    "default": ""
+                        },
+                "sort-by-number": true
+
+		},
+        "clock": {
+            "format-alt": "{:L%A %d/%m - %I:%M %p}",
+            "format": "{:L%I:%M %p}",
+            "interval": 1,   
+            "tooltip-format": "<tt>{calendar}</tt>",
+            "smooth-scrolling-threshold": 0.01,
+            "calendar": {
+                "mode"          : "year",
+                "mode-mon-col"  : 3,
+                "weeks-pos"     : "right",
+                "on-scroll"     : 1,
+                "format": {
+                    "months":     "<span color='#ffead3'><b>{}</b></span>",
+                    "days":       "<span color='#ecc6d9'><b>{}</b></span>",
+                    "weeks":      "<span color='#99ffdd'><b>W{}</b></span>",
+                    "weekdays":   "<span color='#ffcc66'><b>{}</b></span>",
+                    "today":      "<span color='#ff6699'><b><u>{}</u></b></span>"
+                }
+            },
+            "actions":  {
+                    "on-click-right": "mode",
+                    "on-scroll-up": "shift_up",
+                    "on-scroll-down": "shift_down"
+            }
+		},
+        "network": {
+            "format-wifi": " ",
+            "format-ethernet":" ",
+            "format-disconnected": "",
+            "tooltip-format-disconnected": "Not connected",
+            "tooltip-format-wifi": "{essid} ({signalStrength}%) ",
+            "tooltip-format-ethernet": "{ifname} 🖧   {bandwidthUpBits}  {bandwidthDownBits}",
+            "on-click": "waybar/.config/waybar/rofi-wifi.sh"
+        },
+        "bluetooth": {
+            "format": "󰂯 {status}",
+            "format-on": "󰂯",
+            "format-off": "󰂯 off",
+            "format-disabled": "󰂲",
+            "format-no-controller": "󰂲",
+	    	"format-connected-battery": "{device_battery_percentage}% 󰂯",
+            "tooltip-format": "{controller_alias}\t{controller_address}\n\n{num_connections} connected",
+            "tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{num_connections} connected\n\n{device_enumerate}",
+            "tooltip-format-enumerate-connected": "{device_alias}\n{device_address}",
+            "tooltip-format-enumerate-connected-battery": "{device_alias}\n{device_address}\n{device_battery_percentage}%",
+            "on-click-right": "blueman-manager"
+        },
+
+        "custom/logout": {
+            "format": "󰍃",
+            "on-click": "~/.config/rofi/powermenu.sh > /dev/null"
+        },
+        "pulseaudio": {
+            "format": "{icon} {volume}%",
+            "format-muted": "",
+            "on-click": "pavucontrol" // or helvum, qpwgraph, etc
+        }
+
+} 

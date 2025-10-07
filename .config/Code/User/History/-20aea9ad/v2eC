@@ -1,0 +1,14 @@
+matching = fuzzy         # Fuzzy search
+show_all = true          # Show all entries without filtering
+allow_images = true
+
+show = drun
+prompt = Run:
+term = kitty
+insensitive = true
+allow_markup = true
+hide_scroll = true
+width = 600
+height = 400
+location = center
+cache_file = ~/.cache/wofi.cache 

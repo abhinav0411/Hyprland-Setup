@@ -1,0 +1,11 @@
+2025/08/10-17:37:01.261 1879 Reusing MANIFEST /home/abhinav/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_open.spotify.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/08/10-17:37:01.261 1879 Recovering log #92
+2025/08/10-17:37:01.262 1879 Reusing old log /home/abhinav/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_open.spotify.com_0.indexeddb.leveldb/000092.log 
+2025/08/10-17:37:01.275 187a Compacting 2@0 + 0@1 files
+2025/08/10-17:37:01.280 187a Generated table #95@0: 913 keys, 152234 bytes
+2025/08/10-17:37:01.280 187a Compacted 2@0 + 0@1 files => 152234 bytes
+2025/08/10-17:37:01.286 187a compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/08/10-17:37:01.286 187a Compacting 1@1 + 1@2 files
+2025/08/10-17:37:01.305 187a Generated table #96@1: 10572 keys, 1051298 bytes
+2025/08/10-17:37:01.305 187a Compacted 1@1 + 1@2 files => 1051298 bytes
+2025/08/10-17:37:01.310 187a compacted to: files[ 0 0 1 0 0 0 0 ]

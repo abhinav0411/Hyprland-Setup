@@ -1,0 +1,180 @@
+* {
+    font-family: "JetBrainsMonoNL Nerd Font";
+    font-feature-settings: '"zero", "tnum", "ss01", "ss02", "ss03", "cv01"';
+    font-size: 15px;
+}
+
+window#waybar {
+   background-color: transparent;
+}
+
+#custom-appmenuicon,
+#custom-notifications,
+#custom-powermenuicon,
+#clock,
+#battery,
+#cpu,
+#memory,
+#disk,
+#temperature,
+#backlight,
+#network,
+#pulseaudio,
+#tray,
+#mode,
+#idle_inhibitor,
+#user,
+#taskbar,
+#power-profiles-daemon,
+#mpd {
+    background: transparent;
+    color: #d8dee9; /* foreground */
+    margin: 10px 0px 10px 10px;
+}
+
+#user {
+    padding: 0px 10px;
+}
+#custom-appmenuicon {
+   color: #81a1c1; /* blue */
+    padding: 6px 12px;
+    padding-right: 17px;
+    margin-right: 0px;
+}
+#custom-powermenuicon {
+    color: #bf616a; /* red */
+    padding: 6px 12px;
+    padding-right: 17px;
+    margin-right: 10px;
+}
+#custom-notifications {
+    color: #ebcb8b; /* yellow */
+    padding: 6px 12px;
+    padding-right: 17px;
+}
+
+#workspaces{
+   border-radius: 10px;
+   background: transparent;
+   padding: 5px;
+   margin: 10px;
+   margin-right: 0px;
+}
+#workspaces button {
+   color: #d8dee9; /* foreground */
+   padding: 0px;
+   margin: 0px 12px;
+}
+#workspaces button.empty{
+   color: #4c566a; /* light_black */
+}
+#workspaces button.active{
+   color: #ebcb8b; /* yellow */
+}
+#workspaces button:hover {
+   color: #d8dee9;
+}
+
+#clock {
+    padding: 0px 10px;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.377);
+}
+
+#battery.charging, #battery.plugged {
+    color: #a3be8c; /* green */
+}
+
+#battery {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#battery.critical:not(.charging) {
+   border-color: #bf616a;
+   background-color: #bf616a;
+   color: #2e3440; /* background */
+}
+
+#cpu {
+    background-size: 300% 300%;
+    animation: gradient 20s ease infinite;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.377);
+}
+
+#memory {
+    background-color: #cba6f7;
+    font-weight: bolder;
+}
+
+#network.disabled{
+    background-color: #45475a;
+}
+
+#network.disconnected{
+   border-color: #bf616a;
+   background-color: #bf616a;
+   color: #3b4252; /* base */
+   font-weight: bolder;
+   padding-top: 3px;
+   padding-right: 11px;
+}
+
+#pulseaudio {
+    font-weight: bolder;
+}
+
+#pulseaudio.muted {
+   border-color: #bf616a;
+   background-color: #bf616a;
+   color: #3b4252; /* base */
+}
+
+#temperature.critical {
+    background-color: #bf616a;
+    color: #eceff4; /* text */
+}
+
+#tray > .passive {
+    -gtk-icon-effect: dim;
+}
+
+#tray > .needs-attention {
+    -gtk-icon-effect: highlight;
+    background-color: #bf616a;
+}
+
+#idle_inhibitor {
+    background-color: #2d3436;
+}
+
+#idle_inhibitor.activated {
+    background-color: #ecf0f1;
+    color: #2d3436;
+}
+
+#tooltip {
+   background-color: rgba(17, 17, 17, 0.8);
+}
+#tooltip label {
+  color: #bf616a;
+}
+
+#taskbar {
+    padding: 5px;
+    margin: 10px;
+}
+#taskbar button {
+   padding: 2px 5px;
+   border-radius: 8px;
+}
+#taskbar button:hover {
+   background-color: rgba(76, 86, 106, 0.6); /* light_black with alpha */
+}
+#taskbar button.active {
+   background: #2e3440;
+   background: linear-gradient(135deg , #81a1c1, #88c0d0, #a3be8c);
+}
+#taskbar.empty {
+    background-color: transparent;
+    border: 2px solid transparent;
+}

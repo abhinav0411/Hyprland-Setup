@@ -1,0 +1,36 @@
+2025-10-04 01:22:28.492 [info] Starting Python Locator /home/abhinav/.vscode/extensions/ms-python.python-2025.14.0-linux-x64/python-env-tools/bin/pet server
+2025-10-04 01:22:31.387 [info] Discovered env: /home/abhinav/Desktop/first_project/book_manager/venv/bin/python
+2025-10-04 01:22:31.557 [info] Discovered env: /bin/python
+2025-10-04 01:22:31.557 [info] Discovered env: /usr/bin/python
+2025-10-04 01:22:31.558 [info] Env ("/sbin/python") in Path resolved as ResolvedPythonEnv { executable: "/sbin/python", prefix: "/usr", version: "3.13.5.final.0", is64_bit: true, symlinks: Some(["/sbin/python"]) } and reported as Some(GlobalPaths)
+2025-10-04 01:22:31.558 [info] Discovered env: /sbin/python
+2025-10-04 01:22:31.559 [info] Env ("/usr/sbin/python") in Path resolved as ResolvedPythonEnv { executable: "/usr/sbin/python", prefix: "/usr", version: "3.13.5.final.0", is64_bit: true, symlinks: Some(["/usr/sbin/python"]) } and reported as Some(GlobalPaths)
+2025-10-04 01:22:31.559 [info] Discovered env: /usr/sbin/python
+2025-10-04 01:22:31.561 [info] Env ("/sbin/python3") in Path resolved as ResolvedPythonEnv { executable: "/sbin/python3", prefix: "/usr", version: "3.13.5.final.0", is64_bit: true, symlinks: Some(["/sbin/python3"]) } and reported as Some(GlobalPaths)
+2025-10-04 01:22:31.561 [info] Discovered env: /sbin/python3
+2025-10-04 01:22:31.562 [info] Env ("/usr/sbin/python3") in Path resolved as ResolvedPythonEnv { executable: "/usr/sbin/python3", prefix: "/usr", version: "3.13.5.final.0", is64_bit: true, symlinks: Some(["/usr/sbin/python3"]) } and reported as Some(GlobalPaths)
+2025-10-04 01:22:31.562 [info] Discovered env: /usr/sbin/python3
+2025-10-04 01:22:31.562 [info] Env ("/sbin/python3.13") in Path resolved as ResolvedPythonEnv { executable: "/sbin/python3.13", prefix: "/usr", version: "3.13.5.final.0", is64_bit: true, symlinks: Some(["/sbin/python3.13"]) } and reported as Some(GlobalPaths)
+2025-10-04 01:22:31.562 [info] Discovered env: /sbin/python3.13
+2025-10-04 01:22:31.562 [info] Env ("/usr/sbin/python3.13") in Path resolved as ResolvedPythonEnv { executable: "/usr/sbin/python3.13", prefix: "/usr", version: "3.13.5.final.0", is64_bit: true, symlinks: Some(["/usr/sbin/python3.13"]) } and reported as Some(GlobalPaths)
+2025-10-04 01:22:31.562 [info] Discovered env: /usr/sbin/python3.13
+2025-10-04 01:22:31.563 [info] Locator Conda took 160.498212ms
+2025-10-04 01:22:31.563 [info] Locator Homebrew took 166.628µs
+2025-10-04 01:22:31.563 [info] Locator LinuxGlobal took 201.662005ms
+2025-10-04 01:22:31.563 [info] Locator PipEnv took 26.766µs
+2025-10-04 01:22:31.563 [info] Locator Pixi took 62.18µs
+2025-10-04 01:22:31.563 [info] Locator Poetry took 777.326µs
+2025-10-04 01:22:31.563 [info] Locator PyEnv took 941.982µs
+2025-10-04 01:22:31.563 [info] Locator Venv took 102.508µs
+2025-10-04 01:22:31.563 [info] Locator VirtualEnv took 45.62µs
+2025-10-04 01:22:31.563 [info] Locator VirtualEnvWrapper took 129.763µs
+2025-10-04 01:22:31.563 [info] Locator GlobalVirtualEnvs took 259.08µs
+2025-10-04 01:22:31.563 [info] Locator Locators took 208.836578ms
+2025-10-04 01:22:31.563 [info] Locator Path took 292.438099ms
+2025-10-04 01:22:31.563 [info] Locator Workspaces took 6.901196ms
+2025-10-04 01:22:31.563 [info] Refresh completed in 292ms
+2025-10-04 01:22:31.564 [info] Resolved Python Environment /home/abhinav/Desktop/first_project/book_manager/venv/bin/python
+2025-10-04 01:25:17.941 [info] Resolved Python Environment /home/abhinav/Desktop/first_project/book_manager/venv/bin/python
+2025-10-04 01:26:26.173 [info] Resolved Python Environment /home/abhinav/Desktop/first_project/book_manager/venv/bin/python
+2025-10-04 01:27:26.064 [info] Resolved Python Environment /home/abhinav/Desktop/first_project/book_manager/venv/bin/python
+2025-10-04 01:34:09.003 [info] Resolved Python Environment /home/abhinav/Desktop/first_project/book_manager/venv/bin/python

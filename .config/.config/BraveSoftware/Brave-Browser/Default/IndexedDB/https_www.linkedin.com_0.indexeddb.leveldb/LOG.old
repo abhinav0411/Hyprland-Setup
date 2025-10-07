@@ -1,0 +1,7 @@
+2025/08/05-19:12:54.558 a1e Reusing MANIFEST /home/abhinav/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.linkedin.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/08/05-19:12:54.558 a1e Recovering log #3
+2025/08/05-19:12:54.558 a1e Reusing old log /home/abhinav/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.linkedin.com_0.indexeddb.leveldb/000003.log 
+2025/08/05-19:25:04.879 a1f Level-0 table #5: started
+2025/08/05-19:25:04.883 a1f Level-0 table #5: 8124 bytes OK
+2025/08/05-19:25:04.890 a1f Delete type=0 #3
+2025/08/05-19:25:04.890 a1f Manual compaction at level-0 from (begin) .. (end); will stop at (end)

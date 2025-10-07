@@ -1,0 +1,31 @@
+2025-09-25 13:49:11.434 [info] Starting Python Locator /home/abhinav/.vscode/extensions/ms-python.python-2025.14.0-linux-x64/python-env-tools/bin/pet server
+2025-09-25 13:49:14.772 [info] Discovered env: /usr/bin/python
+2025-09-25 13:49:14.942 [info] Discovered env: /bin/python
+2025-09-25 13:49:14.944 [info] Env ("/usr/sbin/python") in Path resolved as ResolvedPythonEnv { executable: "/usr/sbin/python", prefix: "/usr", version: "3.13.5.final.0", is64_bit: true, symlinks: Some(["/usr/sbin/python"]) } and reported as Some(GlobalPaths)
+2025-09-25 13:49:14.944 [info] Discovered env: /usr/sbin/python
+2025-09-25 13:49:14.946 [info] Env ("/sbin/python") in Path resolved as ResolvedPythonEnv { executable: "/sbin/python", prefix: "/usr", version: "3.13.5.final.0", is64_bit: true, symlinks: Some(["/sbin/python"]) } and reported as Some(GlobalPaths)
+2025-09-25 13:49:14.946 [info] Discovered env: /sbin/python
+2025-09-25 13:49:14.950 [info] Env ("/usr/sbin/python3") in Path resolved as ResolvedPythonEnv { executable: "/usr/sbin/python3", prefix: "/usr", version: "3.13.5.final.0", is64_bit: true, symlinks: Some(["/usr/sbin/python3"]) } and reported as Some(GlobalPaths)
+2025-09-25 13:49:14.950 [info] Discovered env: /usr/sbin/python3
+2025-09-25 13:49:14.951 [info] Env ("/usr/sbin/python3.13") in Path resolved as ResolvedPythonEnv { executable: "/usr/sbin/python3.13", prefix: "/usr", version: "3.13.5.final.0", is64_bit: true, symlinks: Some(["/usr/sbin/python3.13"]) } and reported as Some(GlobalPaths)
+2025-09-25 13:49:14.951 [info] Discovered env: /usr/sbin/python3.13
+2025-09-25 13:49:14.951 [info] Env ("/sbin/python3") in Path resolved as ResolvedPythonEnv { executable: "/sbin/python3", prefix: "/usr", version: "3.13.5.final.0", is64_bit: true, symlinks: Some(["/sbin/python3"]) } and reported as Some(GlobalPaths)
+2025-09-25 13:49:14.951 [info] Discovered env: /sbin/python3
+2025-09-25 13:49:14.951 [info] Env ("/sbin/python3.13") in Path resolved as ResolvedPythonEnv { executable: "/sbin/python3.13", prefix: "/usr", version: "3.13.5.final.0", is64_bit: true, symlinks: Some(["/sbin/python3.13"]) } and reported as Some(GlobalPaths)
+2025-09-25 13:49:14.951 [info] Discovered env: /sbin/python3.13
+2025-09-25 13:49:14.952 [info] Locator Conda took 177.23854ms
+2025-09-25 13:49:14.952 [info] Locator Homebrew took 410.199µs
+2025-09-25 13:49:14.952 [info] Locator LinuxGlobal took 209.964011ms
+2025-09-25 13:49:14.952 [info] Locator PipEnv took 37.711µs
+2025-09-25 13:49:14.952 [info] Locator Pixi took 80.943µs
+2025-09-25 13:49:14.952 [info] Locator Poetry took 911.953µs
+2025-09-25 13:49:14.952 [info] Locator PyEnv took 1.255271ms
+2025-09-25 13:49:14.952 [info] Locator Venv took 65.907µs
+2025-09-25 13:49:14.952 [info] Locator VirtualEnv took 205.377µs
+2025-09-25 13:49:14.952 [info] Locator VirtualEnvWrapper took 70.457µs
+2025-09-25 13:49:14.952 [info] Locator GlobalVirtualEnvs took 244.423µs
+2025-09-25 13:49:14.952 [info] Locator Locators took 211.94298ms
+2025-09-25 13:49:14.952 [info] Locator Path took 304.183696ms
+2025-09-25 13:49:14.952 [info] Locator Workspaces took 2.406169ms
+2025-09-25 13:49:14.952 [info] Refresh completed in 304ms
+2025-09-25 13:49:14.953 [info] Resolved Python Environment /bin/python

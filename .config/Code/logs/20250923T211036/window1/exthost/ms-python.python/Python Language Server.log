@@ -1,0 +1,35 @@
+2025-09-23 21:10:43.594 [info] (Client) Pylance client (2025.8.2) started with python extension (2025.14.0)
+2025-09-23 21:10:44.444 [info] (139593) Server root directory: file:///home/abhinav/.vscode/extensions/ms-python.vscode-pylance-2025.8.2/dist
+2025-09-23 21:10:44.445 [info] (139593) Pylance language server 2025.8.2 (pyright version 1.1.405, commit d64f3fa0) starting
+2025-09-23 21:10:44.451 [info] (139593) Starting service instance "dsa" for workspace "/home/abhinav/Desktop/dsa"
+2025-09-23 21:10:44.558 [info] (139593) Starting Mcp server id:4936 ...
+2025-09-23 21:10:44.604 [info] (139593) Setting environmentName for service "dsa": "3.13.5 (global)"
+2025-09-23 21:10:44.606 [info] (139593) Setting pythonPath for service "dsa": "/bin/python"
+2025-09-23 21:10:44.606 [info] (139593) No include entries specified; assuming /home/abhinav/Desktop/dsa
+2025-09-23 21:10:44.607 [info] (139593) Auto-excluding **/node_modules
+2025-09-23 21:10:44.607 [info] (139593) Auto-excluding **/__pycache__
+2025-09-23 21:10:44.607 [info] (139593) Auto-excluding **/.*
+2025-09-23 21:10:44.653 [info] (139593) Assuming Python version 3.13.7.final.0
+2025-09-23 21:10:44.875 [info] (139593) Found 1 source file
+2025-09-23 21:10:44.877 [info] (139593) Settings have not changed. Skipping update.
+2025-09-23 21:10:45.947 [info] (139593) BG: Priority queue background worker(2) root directory: file:///home/abhinav/.vscode/extensions/ms-python.vscode-pylance-2025.8.2/dist
+2025-09-23 21:10:45.948 [info] (139593) BG: Priority queue background worker(2) started
+2025-09-23 21:10:46.140 [info] (139593) BG: Indexer background runner(3) root directory: file:///home/abhinav/.vscode/extensions/ms-python.vscode-pylance-2025.8.2/dist (index)
+2025-09-23 21:10:46.140 [info] (139593) BG: Indexing(3) started
+2025-09-23 21:10:46.995 [info] (139593) BG: scanned(3) 952 files over 1 exec env
+2025-09-23 21:10:51.495 [info] (139593) BG: [IDX(3)] Long operation: index execution environment file:///home/abhinav/Desktop/dsa (4321ms)
+2025-09-23 21:10:51.519 [info] (139593) BG: [IDX(3)] Long operation: index packages file:///home/abhinav/Desktop/dsa (4354ms)
+2025-09-23 21:10:51.519 [info] (139593) BG: indexed(3) 952 files over 1 exec env
+2025-09-23 21:10:51.684 [info] (139593) BG: Indexing finished(3).
+2025-09-23 21:14:57.526 [info] (139593) Starting service instance "<default>" for workspace ""
+2025-09-23 21:14:57.601 [info] (139593) Setting environmentName for service "<default>": "3.13.5 (global)"
+2025-09-23 21:14:57.602 [info] (139593) Setting pythonPath for service "<default>": "/bin/python"
+2025-09-23 21:14:57.602 [info] (139593) No include entries specified; assuming /<default workspace root>
+2025-09-23 21:14:57.602 [info] (139593) Auto-excluding **/node_modules
+2025-09-23 21:14:57.602 [info] (139593) Auto-excluding **/__pycache__
+2025-09-23 21:14:57.603 [info] (139593) Auto-excluding **/.*
+2025-09-23 21:14:57.637 [info] (139593) Assuming Python version 3.13.7.final.0
+2025-09-23 21:14:57.716 [error] (139593) File or directory "/<default workspace root>" does not exist.
+2025-09-23 21:14:57.716 [info] (139593) No source files found.
+2025-09-23 21:14:58.425 [info] (139593) BG: Priority queue background worker(5) root directory: file:///home/abhinav/.vscode/extensions/ms-python.vscode-pylance-2025.8.2/dist
+2025-09-23 21:14:58.426 [info] (139593) BG: Priority queue background worker(5) started

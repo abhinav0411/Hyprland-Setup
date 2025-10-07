@@ -1,0 +1,59 @@
+def generate(n):
+    arr = []
+    for i in range(n):
+        num
+        if len(arr) == 0:
+            arr.append(1)
+            continue
+        if (2*i) % 10 == 0:
+            num = arr[i-1] + 2*(i+1)
+            arr.append(num)
+            continue
+        element = arr[i-1] + 2*i
+        arr.append(element)
+    return arr
+
+def add(n):
+    arr = generate(n)
+    sum_n = 0
+    for i in range(n):
+        sum_n += arr[i]
+    return sum_n
+
+arr = generate(100)
+print(arr)
+
+sum_hundred = add(100)
+print(sum_hundred)
+
+
+# Level 2
+def odd(arr):
+    new_arr = []
+    for i in range(len(arr)):
+        digit = 0
+        num = arr[i]
+        while num > 0:
+            digit = num % 10
+            num = num // 10
+        if digit % 2 != 0:
+            new_arr.append(arr[i])
+    return new_arr
+
+odd_arr = odd(arr)
+print(odd_arr)    
+print(len(odd_arr))
+
+# Level 3
+
+def descending(arr):
+    result = []
+    for num in arr:
+        digits = list(map(int, str(num)))
+        if all(digits[i] >= digits[i+1] for i in range(len(digits)-1)):
+            result.append(num)
+    return result
+
+desc_arr = descending(arr)
+print(desc_arr)
+print(sum(desc_arr))

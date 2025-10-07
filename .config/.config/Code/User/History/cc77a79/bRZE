@@ -1,0 +1,7 @@
+SCENE=SquareToCircle
+FILE=animation.py
+QUALITY=-qk
+FLAGS=-p
+
+run:
+	python3 -m manim $(FLAGS) $(QUALITY) $(FILE) $(SCENE)

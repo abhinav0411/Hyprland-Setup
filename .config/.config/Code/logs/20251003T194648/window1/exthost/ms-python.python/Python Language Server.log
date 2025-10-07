@@ -1,0 +1,34 @@
+2025-10-03 19:46:56.067 [info] (Client) Pylance client (2025.8.3) started with python extension (2025.14.0)
+2025-10-03 19:46:56.696 [info] (37369) Server root directory: file:///home/abhinav/.vscode/extensions/ms-python.vscode-pylance-2025.8.3/dist
+2025-10-03 19:46:56.696 [info] (37369) Pylance language server 2025.8.3 (pyright version 1.1.405, commit d64f3fa0) starting
+2025-10-03 19:46:56.697 [info] (37369) Starting service instance "book_manager" for workspace "/home/abhinav/Desktop/first_project/book_manager"
+2025-10-03 19:46:56.807 [info] (37369) Setting environmentName for service "book_manager": "3.13.7 (venv venv)"
+2025-10-03 19:46:56.807 [info] (37369) Setting pythonPath for service "book_manager": "/home/abhinav/Desktop/first_project/book_manager/venv/bin/python"
+2025-10-03 19:46:56.808 [info] (37369) No include entries specified; assuming /home/abhinav/Desktop/first_project/book_manager
+2025-10-03 19:46:56.808 [info] (37369) Auto-excluding **/node_modules
+2025-10-03 19:46:56.808 [info] (37369) Auto-excluding **/__pycache__
+2025-10-03 19:46:56.809 [info] (37369) Auto-excluding **/.*
+2025-10-03 19:46:56.839 [info] (37369) Assuming Python version 3.13.7.final.0
+2025-10-03 19:46:56.927 [info] (37369) Settings have not changed. Skipping update.
+2025-10-03 19:46:57.114 [info] (37369) Starting Mcp server id:3085 ...
+2025-10-03 19:46:57.127 [info] (37369) Auto-excluding /home/abhinav/Desktop/first_project/book_manager/venv
+2025-10-03 19:46:57.127 [info] (37369) Found 15 source files
+2025-10-03 19:46:57.838 [info] (37369) BG: Priority queue background worker(2) root directory: file:///home/abhinav/.vscode/extensions/ms-python.vscode-pylance-2025.8.3/dist
+2025-10-03 19:46:57.839 [info] (37369) BG: Priority queue background worker(2) started
+2025-10-03 19:46:57.970 [info] (37369) BG: Indexer background runner(3) root directory: file:///home/abhinav/.vscode/extensions/ms-python.vscode-pylance-2025.8.3/dist (index)
+2025-10-03 19:46:57.970 [info] (37369) BG: Indexing(3) started
+2025-10-03 19:46:58.526 [info] (37369) BG: scanned(3) 581 files over 1 exec env
+2025-10-03 19:47:00.274 [info] (37369) BG: indexed(3) 581 files over 1 exec env
+2025-10-03 19:47:00.468 [info] (37369) BG: Indexing finished(3).
+2025-10-03 21:03:02.244 [info] (37369) Starting service instance "<default>" for workspace ""
+2025-10-03 21:03:02.345 [info] (37369) Setting environmentName for service "<default>": "3.13.7 (venv venv)"
+2025-10-03 21:03:02.345 [info] (37369) Setting pythonPath for service "<default>": "/home/abhinav/Desktop/first_project/book_manager/venv/bin/python"
+2025-10-03 21:03:02.346 [info] (37369) No include entries specified; assuming /<default workspace root>
+2025-10-03 21:03:02.347 [info] (37369) Auto-excluding **/node_modules
+2025-10-03 21:03:02.347 [info] (37369) Auto-excluding **/__pycache__
+2025-10-03 21:03:02.347 [info] (37369) Auto-excluding **/.*
+2025-10-03 21:03:02.407 [info] (37369) Assuming Python version 3.13.7.final.0
+2025-10-03 21:03:02.485 [error] (37369) File or directory "/<default workspace root>" does not exist.
+2025-10-03 21:03:02.485 [info] (37369) No source files found.
+2025-10-03 21:03:03.236 [info] (37369) BG: Priority queue background worker(5) root directory: file:///home/abhinav/.vscode/extensions/ms-python.vscode-pylance-2025.8.3/dist
+2025-10-03 21:03:03.240 [info] (37369) BG: Priority queue background worker(5) started

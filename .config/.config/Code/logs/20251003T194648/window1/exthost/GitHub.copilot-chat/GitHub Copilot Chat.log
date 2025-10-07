@@ -1,0 +1,17 @@
+2025-10-03 19:46:55.322 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2025-10-03 19:46:55.322 [info] Using the Electron fetcher.
+2025-10-03 19:46:55.322 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2025-10-03 19:46:55.322 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2025-10-03 19:46:55.322 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2025-10-03 19:46:55.492 [info] Logged in as abhinav0411
+2025-10-03 19:46:56.930 [info] Got Copilot token for abhinav0411
+2025-10-03 19:46:56.943 [info] activationBlocker from 'languageModelAccess' took for 1471ms
+2025-10-03 19:46:57.014 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-10-03 19:46:57.014 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-10-03 19:46:57.035 [info] Registering default platform agent...
+2025-10-03 19:46:57.037 [info] activationBlocker from 'conversationFeature' took for 1570ms
+2025-10-03 19:46:57.201 [info] BYOK: Copilot Chat known models list fetched successfully.
+2025-10-03 19:46:57.840 [info] Fetched model metadata in 2358ms 5311c602-027d-494f-abd0-ed5e9cf7426a
+2025-10-03 19:47:03.883 [info] Refetch model metadata: Succeeded in 927ms e395d94f-08cf-4d0b-b1f0-b4ed603fd707 (DEF6:3BBE9B:50F99F:5E9BB7:68DFDADF) using electron-fetch with status 200.
+2025-10-03 19:47:04.732 [info] Refetch model metadata: Succeeded in 842ms d3a8868e-0d7e-4c46-83a0-8bb90dcc862b (DEFC:3ECC02:4DFBF7:5B99C4:68DFDAE0) using node-fetch with status 200.
+2025-10-03 19:47:05.854 [info] Refetch model metadata: Succeeded in 1115ms 118ac000-bb38-46f5-8d2f-72a0d73dba5d (C958:358DC7:4FD968:5D6F26:68DFDAE1) using node-http with status 200.

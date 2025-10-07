@@ -1,0 +1,11 @@
+{
+  "name": "auth",
+  "version": "1.0.0",
+  "description": "auth learning",
+  "main": "index.js",
+  "scripts": {
+    "tdev": "npm start"
+  },
+  "author": "",
+  "license": "ISC"
+}

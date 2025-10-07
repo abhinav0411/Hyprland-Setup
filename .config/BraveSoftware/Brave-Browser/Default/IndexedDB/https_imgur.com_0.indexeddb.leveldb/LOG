@@ -1,0 +1,7 @@
+2025/08/11-00:08:20.040 14f87 Creating DB /home/abhinav/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_imgur.com_0.indexeddb.leveldb since it was missing.
+2025/08/11-00:08:20.049 14f87 Reusing MANIFEST /home/abhinav/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_imgur.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/08/11-00:08:20.074 14f93 Manual compaction at level-0 from '\x00\x02\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/08/11-00:08:23.193 14f88 Level-0 table #5: started
+2025/08/11-00:08:23.197 14f88 Level-0 table #5: 3864 bytes OK
+2025/08/11-00:08:23.203 14f88 Delete type=0 #3
+2025/08/11-00:08:23.203 14f88 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

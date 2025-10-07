@@ -1,0 +1,43 @@
+2025/08/05-21:34:09.351 a1e Reusing MANIFEST /home/abhinav/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_onedrive.live.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/08/05-21:34:09.352 a1e Recovering log #414
+2025/08/05-21:34:09.353 a1e Reusing old log /home/abhinav/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_onedrive.live.com_0.indexeddb.leveldb/000414.log 
+2025/08/05-21:34:15.548 a20 Level-0 table #420: started
+2025/08/05-21:34:15.564 a20 Level-0 table #420: 1108815 bytes OK
+2025/08/05-21:34:15.570 a20 Delete type=0 #414
+2025/08/05-21:34:16.522 a20 Compacting 1@1 + 2@2 files
+2025/08/05-21:34:16.575 a20 Generated table #421@1: 15045 keys, 2357215 bytes
+2025/08/05-21:34:16.613 a20 Generated table #422@1: 22709 keys, 1423407 bytes
+2025/08/05-21:34:16.613 a20 Compacted 1@1 + 2@2 files => 3780622 bytes
+2025/08/05-21:34:16.619 a20 compacted to: files[ 0 0 2 0 0 0 0 ]
+2025/08/05-21:34:16.619 a20 Delete type=2 #416
+2025/08/05-21:34:16.619 a20 Delete type=2 #417
+2025/08/05-21:34:16.619 a20 Delete type=2 #420
+2025/08/05-21:34:50.350 a20 Level-0 table #424: started
+2025/08/05-21:34:50.370 a20 Level-0 table #424: 1178893 bytes OK
+2025/08/05-21:34:50.381 a20 Delete type=0 #419
+2025/08/05-21:34:51.205 a20 Compacting 1@1 + 1@2 files
+2025/08/05-21:34:51.271 a20 Generated table #425@1: 15118 keys, 2272388 bytes
+2025/08/05-21:34:51.271 a20 Compacted 1@1 + 1@2 files => 2272388 bytes
+2025/08/05-21:34:51.277 a20 compacted to: files[ 0 0 2 0 0 0 0 ]
+2025/08/05-21:34:51.277 a20 Delete type=2 #421
+2025/08/05-21:34:51.277 a20 Delete type=2 #424
+2025/08/05-21:35:19.005 a1f Level-0 table #427: started
+2025/08/05-21:35:19.025 a1f Level-0 table #427: 1126959 bytes OK
+2025/08/05-21:35:19.031 a1f Delete type=0 #423
+2025/08/05-21:35:19.449 a20 Compacting 1@1 + 1@2 files
+2025/08/05-21:35:19.499 a20 Generated table #428@1: 15048 keys, 2361558 bytes
+2025/08/05-21:35:19.502 a20 Generated table #429@1: 421 keys, 27951 bytes
+2025/08/05-21:35:19.502 a20 Compacted 1@1 + 1@2 files => 2389509 bytes
+2025/08/05-21:35:19.508 a20 compacted to: files[ 0 0 3 0 0 0 0 ]
+2025/08/05-21:35:19.508 a20 Delete type=2 #425
+2025/08/05-21:35:19.508 a20 Delete type=2 #427
+2025/08/05-21:36:45.515 a20 Level-0 table #431: started
+2025/08/05-21:36:45.528 a20 Level-0 table #431: 1103123 bytes OK
+2025/08/05-21:36:45.534 a20 Delete type=0 #426
+2025/08/05-21:36:48.485 a20 Compacting 1@1 + 1@2 files
+2025/08/05-21:36:48.548 a20 Generated table #432@1: 15134 keys, 2375760 bytes
+2025/08/05-21:36:48.551 a20 Generated table #433@1: 197 keys, 23250 bytes
+2025/08/05-21:36:48.551 a20 Compacted 1@1 + 1@2 files => 2399010 bytes
+2025/08/05-21:36:48.556 a20 compacted to: files[ 0 0 4 0 0 0 0 ]
+2025/08/05-21:36:48.557 a20 Delete type=2 #428
+2025/08/05-21:36:48.557 a20 Delete type=2 #431

@@ -1,0 +1,14 @@
+{
+  "include": [
+    "/home/abhinav/dotfiles/waybar/.config/waybar/modules/*.jsonc"
+	],
+
+  "layer": "top",
+  "position": "top",
+  "margin-top": 7,
+  "margin-bottom": -11,
+  "modules-left": ["left_div#1", "workspaces", "custom/right_div#1"],
+  "modules-center": ["left_div#5", "distro", "right_div#2"],
+  "modules-right": ["audio", "network", "battery", "left_inv#2", "power_menu"]
+
+}

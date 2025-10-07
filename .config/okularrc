@@ -1,0 +1,28 @@
+[Desktop Entry]
+FullScreen=false
+
+[General]
+LockSidebar=true
+ShowSidebar=true
+
+[Recent Files]
+File1[$e]=$HOME/Downloads/Question_Management_System_Horizontal.png
+File10[$e]=$HOME/Downloads/College Name- SRM Institute of Science and Techonology Team Name-(2).png
+File2[$e]=$HOME/Desktop/output.txt
+File3[$e]=$HOME/Desktop/new_file.txt
+File4[$e]=$HOME/Desktop/test.txt
+File5[$e]=/etc/sddm.conf.d/kde_settings.conf
+File6[$e]=/usr/share/sddm/themes/corners/components/LoginPanel.qml
+File7[$e]=/usr/share/sddm/themes/corners/theme.conf
+File8[$e]=$HOME/Downloads/832769.png
+File9[$e]=$HOME/Downloads/College Name- SRM Institute of Science and Techonology Team Name-.png
+Name1[$e]=Question_Management_System_Horizontal.png
+Name10[$e]=College Name- SRM Institute of Science and Techonology Team Name-(2).png
+Name2[$e]=output.txt
+Name3[$e]=new_file.txt
+Name4[$e]=test.txt
+Name5[$e]=kde_settings.conf
+Name6[$e]=LoginPanel.qml
+Name7[$e]=theme.conf
+Name8[$e]=832769.png
+Name9[$e]=College Name- SRM Institute of Science and Techonology Team Name-.png

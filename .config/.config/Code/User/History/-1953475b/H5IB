@@ -1,0 +1,26 @@
+[general]
+autosens = 1
+sensitivity = 100
+bars = 16
+
+[input]
+method = pulse
+source = bluez_output.2C_BE_EB_A7_92_22.1
+
+[output]
+method = raw
+channels = stereo
+
+[color]
+background = default
+foreground = white
+
+[raw]
+data_format = ascii
+
+[smoothing]
+; integral = 77
+; monstercat = 0
+; waves = 0
+; gravity = 100
+; ignore = 0

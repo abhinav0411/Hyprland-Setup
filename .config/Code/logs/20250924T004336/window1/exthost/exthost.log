@@ -1,0 +1,19 @@
+2025-09-24 00:43:38.733 [info] Extension host with pid 194827 started
+2025-09-24 00:43:38.733 [info] Skipping acquiring lock for /home/abhinav/.config/Code/User/workspaceStorage/cb80a4e4c3b8469f316924b3f8debaeb.
+2025-09-24 00:43:38.849 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-09-24 00:43:38.934 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-09-24 00:43:38.979 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-09-24 00:43:39.072 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-09-24 00:43:39.275 [info] Eager extensions activated
+2025-09-24 00:43:39.283 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-09-24 00:43:39.286 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-09-24 00:43:39.315 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2025-09-24 00:43:39.413 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2025-09-24 00:43:41.521 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onStartupFinished'
+2025-09-24 00:43:41.882 [info] ExtensionService#_doActivateExtension yandeu.five-server, startup: false, activationEvent: 'onStartupFinished'
+2025-09-24 00:43:43.687 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-09-24 00:43:43.709 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-09-24 00:43:43.787 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-09-24 00:43:43.836 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-09-24 00:43:47.005 [info] Extension host terminating: renderer closed the MessagePort
+2025-09-24 00:43:47.090 [info] Extension host with pid 194827 exiting with code 0

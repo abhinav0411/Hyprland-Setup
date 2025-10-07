@@ -1,0 +1,20 @@
+[General]
+LastUsedVersion=210800
+
+[MainWindow]
+MenuBar=Disabled
+
+[Recent Files]
+File1[$e]=$HOME/Pictures/Screenshots/Screenshot_20250728_230910.png
+File2[$e]=$HOME/Desktop/wallpaper/w2.jpg
+File3[$e]=$HOME/Desktop/wallpaper/w3.jpg
+File4[$e]=$HOME/Desktop/wallpaper/w5.jpg
+File5[$e]=$HOME/Desktop/swappy-20250805_091202.png
+Name1[$e]=Screenshot_20250728_230910.png
+Name2[$e]=w2.jpg
+Name3[$e]=w3.jpg
+Name4[$e]=w5.jpg
+Name5[$e]=swappy-20250805_091202.png
+
+[SideBar]
+InformationSplitterSizes=207,246

@@ -1,0 +1,46 @@
+2025/08/12-00:06:52.608 f7e Reusing MANIFEST /home/abhinav/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_neetcode.io_0.indexeddb.leveldb/MANIFEST-000001
+2025/08/12-00:06:52.608 f7e Recovering log #37
+2025/08/12-00:06:52.609 f7e Reusing old log /home/abhinav/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_neetcode.io_0.indexeddb.leveldb/000037.log 
+2025/08/12-00:06:52.634 f7c Level-0 table #43: started
+2025/08/12-00:06:52.637 f7c Level-0 table #43: 10911 bytes OK
+2025/08/12-00:06:52.644 f7c Delete type=0 #37
+2025/08/12-00:06:52.644 f7c Manual compaction at level-0 from '\x00\x10\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x11\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/08/12-00:06:52.657 f88 Level-0 table #45: started
+2025/08/12-00:06:52.661 f88 Level-0 table #45: 771 bytes OK
+2025/08/12-00:06:52.667 f88 Delete type=0 #42
+2025/08/12-00:06:52.668 f7d Manual compaction at level-0 from '\x00\x11\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x12\x00\x00\x00' @ 0 : 0; will stop at '\x00\x11\x00\x00\x05' @ 860 : 1
+2025/08/12-00:06:52.668 f7d Compacting 1@0 + 1@1 files
+2025/08/12-00:06:52.671 f7d Generated table #46@0: 64 keys, 4824 bytes
+2025/08/12-00:06:52.672 f7d Compacted 1@0 + 1@1 files => 4824 bytes
+2025/08/12-00:06:52.678 f7d compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/08/12-00:06:52.678 f7d Delete type=2 #45
+2025/08/12-00:06:52.678 f7d Manual compaction at level-0 from '\x00\x11\x00\x00\x05' @ 860 : 1 .. '\x00\x12\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/08/12-00:06:52.699 f8a Level-0 table #48: started
+2025/08/12-00:06:52.702 f8a Level-0 table #48: 1430 bytes OK
+2025/08/12-00:06:52.708 f8a Delete type=2 #43
+2025/08/12-00:06:52.708 f8a Delete type=0 #44
+2025/08/12-00:06:52.708 f8a Manual compaction at level-0 from '\x00\x12\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x13\x00\x00\x00' @ 0 : 0; will stop at '\x00\x12\x00\x00\x05' @ 897 : 1
+2025/08/12-00:06:52.708 f8a Compacting 1@0 + 1@1 files
+2025/08/12-00:06:52.712 f8a Generated table #49@0: 72 keys, 4895 bytes
+2025/08/12-00:06:52.712 f8a Compacted 1@0 + 1@1 files => 4895 bytes
+2025/08/12-00:06:52.718 f8a compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/08/12-00:06:52.718 f8a Delete type=2 #48
+2025/08/12-00:06:52.718 f89 Manual compaction at level-0 from '\x00\x12\x00\x00\x05' @ 897 : 1 .. '\x00\x13\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/08/12-00:07:01.937 f88 Level-0 table #51: started
+2025/08/12-00:07:01.940 f88 Level-0 table #51: 12374 bytes OK
+2025/08/12-00:07:01.946 f88 Delete type=2 #46
+2025/08/12-00:07:01.947 f88 Delete type=0 #47
+2025/08/12-00:07:01.947 f7c Manual compaction at level-0 from '\x00\x13\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x14\x00\x00\x00' @ 0 : 0; will stop at '\x00\x13\x00\x00\x05' @ 1036 : 1
+2025/08/12-00:07:01.947 f7c Compacting 1@0 + 1@1 files
+2025/08/12-00:07:01.950 f7c Generated table #52@0: 91 keys, 5147 bytes
+2025/08/12-00:07:01.950 f7c Compacted 1@0 + 1@1 files => 5147 bytes
+2025/08/12-00:07:01.956 f7c compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/08/12-00:07:01.956 f7c Delete type=2 #51
+2025/08/12-00:07:01.956 f7c Manual compaction at level-0 from '\x00\x13\x00\x00\x05' @ 1036 : 1 .. '\x00\x14\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/08/12-00:13:40.745 f7d Compacting 1@1 + 1@2 files
+2025/08/12-00:13:40.748 f7d Generated table #53@1: 53 keys, 4873 bytes
+2025/08/12-00:13:40.749 f7d Compacted 1@1 + 1@2 files => 4873 bytes
+2025/08/12-00:13:40.754 f7d compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/08/12-00:13:40.755 f7d Delete type=2 #40
+2025/08/12-00:13:40.755 f7d Delete type=2 #49
+2025/08/12-00:13:40.755 f7d Delete type=2 #52

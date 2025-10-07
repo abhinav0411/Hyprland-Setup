@@ -1,0 +1,64 @@
+2025/08/10-21:46:13.632 9de Reusing MANIFEST /home/abhinav/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_open.spotify.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/08/10-21:46:13.633 9de Recovering log #92
+2025/08/10-21:46:13.640 9de Reusing old log /home/abhinav/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_open.spotify.com_0.indexeddb.leveldb/000092.log 
+2025/08/10-21:46:13.640 9de Delete type=2 #90
+2025/08/10-21:46:13.640 9de Delete type=2 #91
+2025/08/10-21:46:13.640 9de Delete type=2 #93
+2025/08/10-21:46:13.640 9de Delete type=2 #95
+2025/08/10-21:46:14.682 9dd Level-0 table #99: started
+2025/08/10-21:46:14.697 9dd Level-0 table #99: 4184056 bytes OK
+2025/08/10-21:46:14.706 9dd Delete type=0 #92
+2025/08/10-21:46:14.719 9dd Compacting 1@1 + 1@2 files
+2025/08/10-21:46:14.756 9dd Generated table #100@1: 10621 keys, 1116560 bytes
+2025/08/10-21:46:14.756 9dd Compacted 1@1 + 1@2 files => 1116560 bytes
+2025/08/10-21:46:14.762 9dd compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/08/10-21:46:15.961 9dd Level-0 table #102: started
+2025/08/10-21:46:15.970 9dd Level-0 table #102: 4119449 bytes OK
+2025/08/10-21:46:15.977 9dd Delete type=2 #96
+2025/08/10-21:46:15.977 9dd Delete type=0 #98
+2025/08/10-21:46:15.977 9dd Delete type=2 #99
+2025/08/10-21:46:15.979 9dd Compacting 1@1 + 1@2 files
+2025/08/10-21:46:16.002 9dd Generated table #103@1: 10655 keys, 1062667 bytes
+2025/08/10-21:46:16.002 9dd Compacted 1@1 + 1@2 files => 1062667 bytes
+2025/08/10-21:46:16.008 9dd compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/08/10-21:46:16.548 9de Level-0 table #105: started
+2025/08/10-21:46:16.559 9de Level-0 table #105: 4218645 bytes OK
+2025/08/10-21:46:16.567 9de Delete type=2 #100
+2025/08/10-21:46:16.567 9de Delete type=0 #101
+2025/08/10-21:46:16.567 9de Delete type=2 #102
+2025/08/10-21:46:16.809 9de Compacting 1@1 + 1@2 files
+2025/08/10-21:46:16.837 9de Generated table #106@1: 10728 keys, 1067701 bytes
+2025/08/10-21:46:16.837 9de Compacted 1@1 + 1@2 files => 1067701 bytes
+2025/08/10-21:46:16.843 9de compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/08/10-21:46:18.934 9df Level-0 table #108: started
+2025/08/10-21:46:18.945 9df Level-0 table #108: 4108870 bytes OK
+2025/08/10-21:46:18.952 9df Delete type=2 #103
+2025/08/10-21:46:18.952 9df Delete type=0 #104
+2025/08/10-21:46:18.952 9df Delete type=2 #105
+2025/08/10-21:46:19.156 9de Compacting 1@1 + 1@2 files
+2025/08/10-21:46:19.179 9de Generated table #109@1: 10751 keys, 1128658 bytes
+2025/08/10-21:46:19.179 9de Compacted 1@1 + 1@2 files => 1128658 bytes
+2025/08/10-21:46:19.185 9de compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/08/10-21:46:19.223 9de Level-0 table #111: started
+2025/08/10-21:46:19.232 9de Level-0 table #111: 4197897 bytes OK
+2025/08/10-21:46:19.238 9de Delete type=2 #106
+2025/08/10-21:46:19.238 9de Delete type=0 #107
+2025/08/10-21:46:19.238 9de Delete type=2 #108
+2025/08/10-21:46:19.240 9de Compacting 1@1 + 1@2 files
+2025/08/10-21:46:19.270 9de Generated table #112@1: 10776 keys, 1309252 bytes
+2025/08/10-21:46:19.270 9de Compacted 1@1 + 1@2 files => 1309252 bytes
+2025/08/10-21:46:19.276 9de compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/08/10-21:46:19.311 9de Level-0 table #114: started
+2025/08/10-21:46:19.321 9de Level-0 table #114: 4200268 bytes OK
+2025/08/10-21:46:19.328 9de Delete type=2 #109
+2025/08/10-21:46:19.328 9de Delete type=0 #110
+2025/08/10-21:46:19.328 9de Delete type=2 #111
+2025/08/10-21:46:19.330 9de Compacting 1@1 + 1@2 files
+2025/08/10-21:46:19.353 9de Generated table #115@1: 10763 keys, 1070264 bytes
+2025/08/10-21:46:19.353 9de Compacted 1@1 + 1@2 files => 1070264 bytes
+2025/08/10-21:46:19.362 9de compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/08/10-21:46:19.372 9de Level-0 table #117: started
+2025/08/10-21:46:19.384 9de Level-0 table #117: 4214666 bytes OK
+2025/08/10-21:46:19.396 9de Delete type=2 #112
+2025/08/10-21:46:19.396 9de Delete type=0 #113
+2025/08/10-21:46:19.396 9de Delete type=2 #114
