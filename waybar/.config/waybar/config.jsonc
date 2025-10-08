@@ -89,12 +89,11 @@
         },
 
         "custom/mpris": {
-            "exec": "playerctl metadata --format '{{ title }} - {{ artist }}'",
+            "exec": "playerctl metadata --format '{{ title }} - {{ artist }}' | awk '{ if (length($0) > 45) print substr($0, 1, 45) \"...\"; else print $0 }'",
             "interval": 5,
             "return-type": "plain",
             "format": "🎵 {}",
             "tooltip": false
         }
-
 
 } 
