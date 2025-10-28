@@ -26,3 +26,7 @@ unset rc
 
 export PATH=$PATH:/home/abhinav/.spicetify
 
+
+# bun
+export BUN_INSTALL="$HOME/.local/share/reflex/bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
