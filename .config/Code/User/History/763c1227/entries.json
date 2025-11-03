@@ -1,1 +1,0 @@
-{"version":1,"resource":"file:///home/abhinav/Desktop/machine%20learning/test.py","entries":[{"id":"BOuM.py","source":"Chat Edit: 'DataFrame shape: (1593, 1)\nFeatures shape: (1593, 0)\nLabels shape: (1593,)\nX_train shape: (1274, 0)\ny_train shape: (1274,)\nError: Training data is empty. Check feather file and slicing.'","timestamp":1754906183808}]}

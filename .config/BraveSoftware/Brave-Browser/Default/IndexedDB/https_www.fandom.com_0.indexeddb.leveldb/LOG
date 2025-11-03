@@ -1,6 +1,0 @@
-2025/08/08-23:42:46.711 a9b Creating DB /home/abhinav/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.fandom.com_0.indexeddb.leveldb since it was missing.
-2025/08/08-23:42:46.720 a9b Reusing MANIFEST /home/abhinav/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.fandom.com_0.indexeddb.leveldb/MANIFEST-000001
-2025/08/08-23:53:27.946 a9c Level-0 table #5: started
-2025/08/08-23:53:27.950 a9c Level-0 table #5: 3749 bytes OK
-2025/08/08-23:53:27.956 a9c Delete type=0 #3
-2025/08/08-23:53:27.956 a9c Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -1,9 +1,0 @@
-show = drun
-prompt = Run:
-term = kitty
-insensitive = true
-allow_markup = true
-hide_scroll = false
-width = 600
-height = 400
-location = center

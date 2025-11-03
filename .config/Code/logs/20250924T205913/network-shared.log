@@ -1,7 +1,0 @@
-2025-09-24 21:04:16.006 [error] #12: https://main.vscode-cdn.net/extensions/marketplace.json - error GET net::ERR_NAME_NOT_RESOLVED
-2025-09-24 21:09:16.014 [error] #15: https://main.vscode-cdn.net/extensions/marketplace.json - error GET net::ERR_NAME_NOT_RESOLVED
-2025-09-24 21:09:17.716 [error] #16: https://vscode-sync.trafficmanager.net/v1/manifest - error GET net::ERR_NAME_NOT_RESOLVED
-2025-09-24 21:09:19.726 [error] #17: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_NAME_NOT_RESOLVED
-2025-09-24 21:09:22.336 [error] #18: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_NAME_NOT_RESOLVED
-2025-09-24 21:29:30.813 [error] #29: https://main.vscode-cdn.net/extensions/marketplace.json - error GET Request timeout after 10000ms
-2025-09-24 21:45:00.730 [error] #69: https://main.vscode-cdn.net/extensions/marketplace.json - error GET Request timeout after 10000ms

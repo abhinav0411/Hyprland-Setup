@@ -1,6 +1,0 @@
-2025/08/12-08:43:56.786 dff Creating DB /home/abhinav/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_rol.redhat.com_0.indexeddb.leveldb since it was missing.
-2025/08/12-08:43:56.803 dff Reusing MANIFEST /home/abhinav/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_rol.redhat.com_0.indexeddb.leveldb/MANIFEST-000001
-2025/08/12-08:45:02.449 e00 Level-0 table #5: started
-2025/08/12-08:45:02.455 e00 Level-0 table #5: 18645 bytes OK
-2025/08/12-08:45:02.461 e00 Delete type=0 #3
-2025/08/12-08:45:02.461 e00 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

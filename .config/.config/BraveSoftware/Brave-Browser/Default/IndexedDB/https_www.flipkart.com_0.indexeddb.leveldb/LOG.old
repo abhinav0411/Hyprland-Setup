@@ -1,6 +1,0 @@
-2025/08/01-23:04:55.208 b75 Creating DB /home/abhinav/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.flipkart.com_0.indexeddb.leveldb since it was missing.
-2025/08/01-23:04:55.217 b75 Reusing MANIFEST /home/abhinav/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.flipkart.com_0.indexeddb.leveldb/MANIFEST-000001
-2025/08/01-23:05:49.193 b75 Level-0 table #5: started
-2025/08/01-23:05:49.198 b75 Level-0 table #5: 109351 bytes OK
-2025/08/01-23:05:49.203 b75 Delete type=0 #3
-2025/08/01-23:05:49.204 b75 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
