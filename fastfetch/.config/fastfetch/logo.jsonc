@@ -1,0 +1,9 @@
+{
+    "type": "source",
+    "source": "~/.config/fastfetch/hor.png",
+    "preserveAspectRatio": true,
+    "width": 40,
+    "height": 20,
+    "padding": 2,
+    "kitty": true
+}

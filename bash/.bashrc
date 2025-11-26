@@ -27,6 +27,19 @@ unset rc
 export PATH=$PATH:/home/abhinav/.spicetify
 
 
+fixerror() {
+    last_cmd=$(fc -ln -1)
+
+    if [ -z "$last_cmd" ]; then
+        /home/abhinav/Desktop/shell-script/fixerror/venv/bin/python \
+            /home/abhinav/Desktop/shell-script/fixerror/aihelp.py
+    else
+        /home/abhinav/Desktop/shell-script/fixerror/venv/bin/python \
+            /home/abhinav/Desktop/shell-script/fixerror/aihelp.py "$last_cmd"
+    fi
+}
+
+
 # bun
 export BUN_INSTALL="$HOME/.local/share/reflex/bun"
 export PATH="$BUN_INSTALL/bin:$PATH"

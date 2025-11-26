@@ -1,3 +1,5 @@
-if status is-interactive
-    # Commands to run in interactive sessions can go here
+function fish_greeting
+    echo -e "\033[36m /\_/\  \033[0m"
+    echo -e "\033[35m( -.- )  meow~\033[0m"
+    echo -e "\033[36m > ^ <  \033[0m"
 end
