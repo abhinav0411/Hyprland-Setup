@@ -29,29 +29,8 @@
 		},
         "clock": {
             "format-alt": "{:L%A %d/%m - %I:%M %p}",
-            "format": "{:L%I:%M %p}",
-            "interval": 1,   
-            "tooltip-format": "<tt>{calendar}</tt>",
-            "smooth-scrolling-threshold": 0.01,
-            "calendar": {
-                "mode"          : "year",
-                "mode-mon-col"  : 3,
-                "weeks-pos"     : "right",
-                "on-scroll"     : 1,
-                "format": {
-                    "months":     "<span color='#cc9a4d'><b>{}</b></span>",
-                    "days":       "<span color='#b36b8f'><b>{}</b></span>",      
-                    "weeks":      "<span color='#33997f'><b>W{}</b></span>",
-                    "weekdays":   "<span color='#cc9933'><b>{}</b></span>",
-                    "today":      "<span color='#cc3366'><b><u>{}</u></b></span>"
-                }
-
-            },
-            "actions":  {
-                    "on-click-right": "mode",
-                    "on-scroll-up": "shift_up",
-                    "on-scroll-down": "shift_down"
-            }
+            "format": "{:L%I:%M %p}"
+            
 		},
         "network": {
             "format-wifi": " ",
